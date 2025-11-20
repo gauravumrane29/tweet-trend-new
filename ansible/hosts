@@ -1,9 +1,13 @@
 [Jenkins-master]
+13.201.136.199
 
 [jenkins-master:vars]
 ansible_user=ubuntu
 ansibl_ssh_private_key_file=/.ssh/project.pem
 
 [jenkins-slave]
-ansible_user=ubuntu
+3.111.149.26
+
+[jenkins-slave:vars]
+ansible_user=ubuntu 
 ansibl_ssh_private_key_file=/.ssh/project.pem

@@ -1,5 +1,6 @@
 ---
 - name: install maven
+  hosts: jenkins-slave
   become: true  
   tasks:
     - name: update apt cache

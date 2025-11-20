@@ -1,5 +1,6 @@
 ---
 - name: Jenkins Setup
+  hosts: jenkins-master
   become: true  
   tasks:
     - name: jenkins apt key
