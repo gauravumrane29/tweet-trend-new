@@ -1,4 +1,4 @@
-[Jenkins-master]
+[jenkins-master]
 13.201.136.199
 
 [jenkins-master:vars]
