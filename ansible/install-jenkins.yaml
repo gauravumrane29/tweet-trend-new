@@ -12,6 +12,7 @@
       apt_repository:
         repo: 'deb https://pkg.jenkins.io/debian-stable binary/'
         state: present
+        update_cache: yes
 
     - name: install java 
       apt: 
