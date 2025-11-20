@@ -42,9 +42,6 @@
           export MAVEN_HOME=/opt/maven
           export PATH=${M2_HOME}/bin:${PATH}
         mode: '0755'
-
-    - name: load maven environment variables
-      shell: source /etc/profile.d/maven.sh
   
     - name: install docker
       apt:
