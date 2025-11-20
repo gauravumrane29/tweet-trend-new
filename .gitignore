@@ -1,0 +1,9 @@
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# Private keys and sensitive files
+*.pem
+*.key
+*.ppk
